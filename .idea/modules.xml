@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_api_AutoTest.iml" filepath="$PROJECT_DIR$/.idea/Java_api_AutoTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/export/export.iml" filepath="$PROJECT_DIR$/export/export.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myHttpClient/myHttpClient.iml" filepath="$PROJECT_DIR$/myHttpClient/myHttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatispro/mybatispro.iml" filepath="$PROJECT_DIR$/mybatispro/mybatispro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot1/springboot1.iml" filepath="$PROJECT_DIR$/springboot1/springboot1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testHttpClient/testHttpClient.iml" filepath="$PROJECT_DIR$/testHttpClient/testHttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testng1/testng1.iml" filepath="$PROJECT_DIR$/testng1/testng1.iml" />
+    </modules>
+  </component>
+</project>

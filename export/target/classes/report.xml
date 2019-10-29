@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="testreport">
+    <test name="report">
+        <classes>
+            <class name="com.test.export.TestExport">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logtest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.test.export.ExtentReportListener"/>
+    </listeners>
+</suite>

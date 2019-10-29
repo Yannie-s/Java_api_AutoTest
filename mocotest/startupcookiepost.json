@@ -1,0 +1,36 @@
+[
+  {
+    "description": "会返回cookies的get请求",
+    "request": {
+      "uri": "/getcookies",
+      "method": "get"
+    },
+    "response": {
+      "text": "yes it is",
+      "cookies": {
+        "loginpara": "yesis"
+      }
+    }
+  },
+  {
+    "description": "这是post带cookie",
+    "request": {
+      "uri": "/post/cookie",
+      "method": "post",
+      "cookies": {
+        "loginpara": "yesis"
+      },
+      "json": {
+        "name":"dog",
+        "age": "11"
+      }
+    },
+    "response": {
+      "status": "200",
+      "json": {
+        "dogg": "success",
+        "status": "1"
+      }
+    }
+  }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="group">
+    <test name="run all">
+        <classes>
+            <class name="test1.GroupOnCLass1"/>
+            <class name="test1.GroupOnClass2"/>
+            <class name="test1.GroupOnCLass3"/>
+        </classes>
+    </test>
+    <test name="only run teacher">
+        <groups>
+            <run>
+                <include name="teacher"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test1.GroupOnCLass1"/>
+            <class name="test1.GroupOnClass2"/>
+            <class name="test1.GroupOnCLass3"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/testng1/pom.xml" />
+        <option value="$PROJECT_DIR$/export/pom.xml" />
+        <option value="$PROJECT_DIR$/myHttpClient/pom.xml" />
+        <option value="$PROJECT_DIR$/testHttpClient/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot1/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatispro/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="10" project-jdk-type="JavaSDK" />
+</project>

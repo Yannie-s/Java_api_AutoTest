@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="thread test" parallel="classes" thread-count="2">
+    <test name="thread">
+        <classes>
+            <class name="thread.MultiThreadOnXml"/>
+
+        </classes>
+    </test>
+</suite>

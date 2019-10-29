@@ -1,0 +1,32 @@
+[
+  {
+    "description": "this is no parameters get method",
+    "request": {
+      "uri": "/getdemo",
+      "method": "get"
+    },
+    "response": {
+      "text": "this is no parameter method没有参数哦哦哦",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "this is 存在参数请求get",
+    "request": {
+      "uri": "/getpara",
+      "method": "get",
+      "queries": {
+        "name": "rabbit",
+        "age": "13"
+      }
+    },
+    "response": {
+      "text": "存在参数的请求get",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+]

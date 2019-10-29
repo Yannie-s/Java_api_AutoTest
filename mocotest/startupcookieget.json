@@ -1,0 +1,32 @@
+[
+  {
+    "description": "会返回cookies的get请求",
+    "request": {
+      "uri": "/getcookies",
+      "method": "get"
+    },
+    "response": {
+      "text": "yes it is",
+      "cookies": {
+        "loginpara": "yesis"
+      }
+    }
+  },
+  {
+    "description": "this is get cookie",
+    "request": {
+      "uri": "/get/cookie",
+      "method": "get",
+      "cookies": {
+        "loginpara": "yesis"
+      }
+    },
+    "response":{
+      "text":"请求时需要添加cookies信息才能访问",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  }
+
+]

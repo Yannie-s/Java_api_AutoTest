@@ -1,0 +1,27 @@
+[
+  {
+    "description": "this is the post no para method ",
+    "request": {
+      "uri": "/postdemo",
+      "method": "post"
+    },
+    "response": {
+      "text": "this is the post no para test"
+    }
+  },
+  {
+    "description": "this is with parameters post method",
+    "request": {
+      "uri": "/postpara",
+      "method": "post",
+      "forms": {
+        "name": "rabbit",
+        "age": "11"
+      }
+    },
+    "response": {
+      "text": "this is the paramters post method 带参数哦"
+    }
+
+  }
+]
